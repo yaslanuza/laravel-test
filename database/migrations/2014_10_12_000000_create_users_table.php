@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken(); //por defecto de laravel
             $table->timestamps(); //por defecto de laravel para poner hora y fecha de creacion de usuarios
         });
-    }
+    }//fin de funcion.
 
     /**
      * Reverse the migrations.
