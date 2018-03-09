@@ -27,4 +27,16 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    //Estableciendo relacion 1:M user & arituclos, un usuario puede publicar muchos articulos
+     public function articles() //funcion en plural
+    {
+        return $this->hasMany("App\Article"); //nombde del modelo, tabla, clase relacionada con User.
+    } //fin articles
+
+    //Estableciendo relacion 1:M un usuario en singuluar c
+     public function user()
+    {
+        return $this->hasMany("App\User"); //nombde del modelo, tabla, clase relacionada con User.
+    } //fin articles
 }
