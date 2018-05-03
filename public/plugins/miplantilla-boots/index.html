@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="utf-8">
+ <meta name="viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!-- para dispositivos móvil -->
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="Departamento de informatica de la EMPRESA " name="description">
+<meta content="Dirección de empresa, kys, Nicaragua,  Departmento, otras referencias aca," name="keywords">
+ 
+ <!-- CSS de Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+<title>MI Plantilla Yasser</title>
+
+</head>
+<body>
+ 
+  <header>
+  <!-- Aca se agrega un nav para poder crear el menu de navegacion de la página -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+      <div class="container">
+            <div class="navbar-header"><!-- boton para mostrar y ocultar el menú en dispositivos móviles -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-geo" aria-expended="false" aria-controls="navbar">
+                  <span class="sr-only">Desplegar / Ocultar menu</span><!-- se vera solo para dispositivos moviles -->
+                  <span class="icon-bar"></span> <!-- se triplica class="icon-bar" -->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <!-- <a href="#" class="navbar-brand">Principal</a> -->
+            </div>
+            <!-- inicia menu top -->
+
+            <div class="collapse navbar-collapse" id="navegacion-geo">
+
+                <ul class="nav navbar-nav"><!-- inicio lista menu top -->
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">¿Quiénes Somos?</a></li>               
+                    <li class="dropdown"><!-- inicio de clase para desplegar submenus -->
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expended="false">Sub-Menú Materias<span class="caret"></span></a><!-- inicio menu desplegable sub menu -->
+                      <ul class="dropdown-menu" role="menu"> <!-- elementos dentro del submenu -->
+                        <li><a href="#">Página 1</a></li>
+                        <!-- <li role="separator" class="divider"></li> -->
+                        <li><a href="#">-Sociales</a></li>
+                        <li><a href="#">-Español</a></li>
+                        <li><a href="#">-Matemáticas</a></li>
+                        <li><a href="#">-Ciencías</a></li>
+                        <li><a href="#">-Física</a></li>
+                        <li><a href="#">-Geología</a></li>
+                        <li><a href="#">-Practicas</a></li>
+                      </ul>   <!-- fin elementos dentro del submenu -->
+
+                    </li>  <!-- fin de clase para desplegar submenus -->
+
+                    <li><a href="#">Nuestro Trabajo</a></li>
+                    <li><a href="#">Contacto </a></li>
+                </ul><!-- fin lista menu top -->    
+
+                <!-- inicio de formulario de busqueda ubicado al lado derecho de topmenu -->
+                <form action="" class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                        <input type="text" name="buscar" class="form-control" placeholder="buscar">                    
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+
+                 
+                </form>
+
+            </div>
+     
+    </div><!-- centra el contenido respecto al navegador -->
+
+  </nav>
+
+  </header>
+   <!-- ############################################################################################### -->
+
+   <!-- Aqui el jumbroton secion tipo baner para logo instititucional-->
+
+      <section class="jumbotron">
+        <div class="row"> <!-- row de logo y Texto -->
+            <div class="container">
+                  <div class="col-md-6 col-md-offset-0 clearfix" > <!-- celdas de 6 para el logo-->
+                  <div id="logo"> </div> <!-- fin id-logo -->
+                                                                  
+                    <p>Logo institucional</p> 
+                  </div><!-- fin primera caja de 6 col-->
+
+                  <div class="col-md-6 col-md-offset-0 clearfix pull-left">
+                       <h1>IMAGEN</h1>
+                       <p>Banner estático</p>
+                  </div>
+
+            </div><!-- fin container -->
+         
+        </div> <!-- fin row --> 
+      </section> <!-- fin section jumbotron -->
+
+ <!-- ############################################################################################### -->
+  <!-- migas de pan y ajuste de texto,img -->
+  <section class="main container">
+      <div class="row">   <!-- inicio fila row para migas, sidebar y contenido de noticias -->
+            <section class="posts col-md-9"> <!--inicio class posts col, las 3 col restantes son para el sidebar   -->
+                 <div class="migas-de-pan">
+                   <ol class="breadcrumb">
+                     <li><a href="#">Inicio</a></li>
+                     <li><a href="#">¿Quiénes Somos?</a></li>
+                     <li><a href="#">Fenómenos</a></li>
+                     <li class="active">Monitoreo en tiempo real</li>
+                   </ol>
+                 </div> <!--fin div migas-de-pan-->
+                <!-- ############################################################################################### -->
+
+                 <!-- seccion para de detalle de cada articulo publicado -->
+        <!-- ############################################################################################### -->
+        <!-- inicio article 1 -->
+        <article class="post clearfix"> 
+          <!-- seccion de imagen,pull-left empuja la img a la izquierda -->
+            <a href="#" class="thumb pull-left">
+                <img class="img-thumbnail" src="img/img4.jpg" alt=" ">
+             </a>
+
+            <h2 class="post-title">
+              <a href="#"> Inician proyectos pilotos</a>
+            </h2>
+            <p> <span class="post-fecha">3 de Noviembre del 2017</span> por <span class="post-autor"> <a href="#"> Admin</a></p>
+                  <!-- justifica el texto -->
+            <p class="post-contenido text-justify">
+              Este post tiene contenido de relleno, con contenido básico de ejemplo usando el framwork de diseño web bootstrab, con detalles de su estructura, clases, estilos, contenidos, css y html5 de forma responsiva segun plantilla usada.
+              Además contiene una Estuctura de diseño básico que se puede adaptar rapidamente a cualquier blog, sitio web etc..
+              <br>
+              Esta plantia y estuctura fue diseñada por mi persona, yasser lanuza como parte autoaprendizaje y test para futura implementación en proyectos, para diseño rapido, el contenido en esté artículo esta justicado con la página, lo que le da una vista ordenada. <br><br>
+
+              <strong>Otro dato de interes es que se usa un ropositorio en Git-Hub</strong> <br><br>
+
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae, voluptas nulla atque dolor alias iure sed impedit, sequi molestiae a ipsum ex in qui quibusdam minima, aliquam est voluptatibus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi, nostrum excepturi pariatur neque provident reprehenderit dolor dignissimos deserunt iste, ex, eveniet quasi necessitatibus quibusdam aspernatur. Soluta odio, doloribus dicta?
+            </p>
+
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto iure, velit numquam neque dolor reprehenderit corporis sapiente delectus sequi nostrum optio excepturi est adipisci, perferendis aliquam doloribus pariatur. Doloribus, fugit?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis est corporis et doloremque, nulla vero alias asperiores similique, dicta at provident sunt animi harum iure, reiciendis sint ducimus, ullam fuga.
+            </p>
+
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae, voluptas nulla atque dolor alias iure sed impedit, sequi molestiae a ipsum ex in qui quibusdam minima, aliquam est voluptatibus.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi, nostrum excepturi pariatur neque provident reprehenderit dolor dignissimos deserunt iste, ex, eveniet quasi necessitatibus quibusdam aspernatur. Soluta odio, doloribus dicta?
+            </p>
+
+          <!-- Botones para articulos, leer mas y comentarios -->
+                  <div class="contenedor-botones">
+                    <a href="#" class="btn btn-primary">Leer Más</a>
+                    <a href="#" class="btn btn-warning">Comentarios <span class="badge">2</span></a>
+                  </div>
+
+                </article> <!-- fin article 1 -->
+         <!-- ############################################################################################### -->
+      
+        <!-- inicio article 2 -->
+         <article class="post clearfix"> 
+          <!-- seccion de imagen,pull-left empuja la img a la izquierda -->
+            <a href="#" class="thumb pull-left">
+              <img class="img-thumbnail" src="img/img1.jpg" alt=" ">
+            </a>
+
+         <h2 class="post-title">
+            <a href="#"> Inician proyectos para evaluar sismos</a>
+          </h2>
+          <p> <span class="post-fecha">3 de Noviembre del 2017</span> por <span class="post-autor"> <a href="#"> Admin</a></p>
+          <!-- justifica el texto -->
+          <p class="post-contenido text-justify">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae, voluptas nulla atque dolor alias iure sed impedit, sequi molestiae a ipsum ex in qui quibusdam minima, aliquam est voluptatibus.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi, nostrum excepturi pariatur neque provident reprehenderit dolor dignissimos deserunt iste, ex, eveniet quasi necessitatibus quibusdam aspernatur. Soluta odio, doloribus dicta?
+                  
+          </p>
+
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae, voluptas nulla atque dolor alias iure sed impedit, sequi molestiae a ipsum ex in qui quibusdam minima, aliquam est voluptatibus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi, nostrum excepturi pariatur neque provident reprehenderit dolor dignissimos deserunt iste, ex, eveniet quasi necessitatibus quibusdam aspernatur. Soluta odio, doloribus dicta?
+                  
+            </p>
+
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae, voluptas nulla atque dolor alias iure sed impedit, sequi molestiae a ipsum ex in qui quibusdam minima, aliquam est voluptatibus.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi, nostrum excepturi pariatur neque provident reprehenderit dolor dignissimos deserunt iste, ex, eveniet quasi necessitatibus quibusdam aspernatur. Soluta odio, doloribus dicta?
+          </p>
+
+                  <!-- Botones para articulos, leer mas y comentarios -->
+                  <div class="contenedor-botones">
+                    <a href="#" class="btn btn-primary">Leer Más</a>
+                    <a href="#" class="btn btn-warning">Comentarios <span class="badge">2</span></a>
+                  </div>
+
+                </article> <!-- fin article 2 -->
+
+        <!-- ############################################################################################### -->
+      
+                <!-- paginacion de articulos -->
+                <nav>
+                  <div class="center-block">
+                    <ul class="pagination">
+                      <li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a> </li>
+                      <li ><a href="#">1</a> </li>
+                      <li ><a href="#">2</a> </li>
+                      <li ><a href="#">3</a> </li>
+                      <li ><a href="#">4</a> </li>
+                      <li ><a href="#">5</a> </li>
+                      <li ><a href="#">&raquo; <span class="sr-only">Siguente </span> 5</a> </li>
+
+                    </ul>
+                  </div>
+                </nav>
+
+            </section> <!-- fin section post col-->  
+ <!-- ############################################################################################### -->
+ <!-- ############################################################################################### -->
+      
+            <!-- inicio Aside -->
+  
+          <!-- <aside class="col-md-3 hidden-xs hidden-sm bg-success" > -->
+          <aside class="col-xs-12 col-sm-12 col-md-3 bg-success" >
+                  <h4>Herramientas</h4>
+                  <div class="list-group"> <!-- inicio grupo de enlace en aside -->
+                  
+                      <!-- <a href="#" class="list-group-item active">Base Legal</a> -->
+                      <a href="#" class="list-group-item">Proyectos</a>
+                      <a href="#" class="list-group-item">Páginas de Ejemplos</a>
+                      <a href="#" class="list-group-item">Herramientas web</a>
+                  
+                  </div><!-- fin grupo de enlace en herramientas -->   
+
+                  <h4>Enlaces</h4>
+                  <div class="list-group"> <!-- inicio grupo de enlace en aside -->
+                    
+                      <!-- <a href="#" class="list-group-item active">Datos de desastres</a> -->
+                      <a href="#" class="list-group-item">Guías de Estudios</a>
+                      <a href="#" class="list-group-item">Foto de desastres</a>
+                      <a href="#" class="list-group-item">Enlaces Externos</a>
+                     
+                  </div>
+
+                  <h4>Tutoriales</h4>
+                  <div class="list-group"> <!-- inicio grupo de enlace en aside -->
+                    
+                    <!-- <a href="#" class="list-group-item active">Mapas de Georiesgos</a> -->
+                    <a href="#" class="list-group-item">Notas sobre Git</a>
+                    <a href="#" class="list-group-item">Notas sobre Laravel</a>
+                    
+                  </div>
+
+                  <h4 >Artículos recientes</h4>
+                  <!-- <div class="list-group tex-center py-5"> <! - - inicio grupo de enlace en aside --> 
+                    <a href="#" class="list-group-item">
+                    <h4 href="#" class="list-group-item-heading">Noticia 1</h4>
+                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                    <h4 href="#" class="list-group-item-heading">Noticia 2</h4>
+                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                    <h4 href="#" class="list-group-item-heading">Noticia 3</h4>
+                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                    </a>
+                  <!-- </div> -->
+
+          </aside><!-- fin Aside -->    
+          <!-- ############################################################################################### -->
+      
+        </div> <!-- fin class row que contiene los bloques de contenido, aside-->  
+        <!-- ############################################################################################### -->
+      
+  </section> <!-- fin main container -->
+<!-- ############################################################################################### -->
+<!-- ############################################################################################### -->
+<!-- ############################################################################################### -->         
+ 
+        
+ 
+  <!-- seccion para el pies de pag -->
+   <!-- 192.168.44.144\index.html -->
+   <!-- 192.168.44.144/index.html -->
+<footer>
+    <!-- <div class="container "> <!-- inicio container footer --> -->
+       <nav class="nav navbar-inverse">
+        <div class="row"><!-- inicio row footer -->
+          <address class="col-xs-12 col-xm-12 col-md-12 text-center">
+            <p><span><b>© Mi Página de Plantilla Yasser 2017 - USANDO html5 y bootstrab..</span></b><br> 
+                                  Bootstrab<br>
+                                  Managua, Nicaragua.<br>
+                                  <!-- Tel. +505-22492761 Fax +505-22491082 -->
+            </p>
+            <abrr title="phone">Tel: </ahrr>+505-8690-2708 Fax +505-000000
+          </address><!-- fin class col footer -->
+
+         <!-- <div class="navbar-inline bg-white"> -->
+          <div class="col-xs-12 ">
+            <ul class="list-inline text-center">
+              <li><a href="#" class="text-danger"><span>Inicio</span></a></li>
+              <li><a href="#" class="text-danger">Web Mail institucional </a></li>
+              <li><a href="#" class="text-danger">Descripción (ESP)  </a></li>
+              <li><a href="#" class="text-danger">Descripción (ENG)  </a></li>
+              <li><a href="#" class="text-danger">Contáctenos</a></li>
+              
+            </ul>
+          </div>
+        </div>
+         <!--  </div> -->
+        <!-- </div>fin row footer -->
+      </nav><!-- fin row footer -->
+   </footer>
+ <!-- ############################################################################################### -->
+      
+<!-- el jqyuere debe ir abtes del bootstrao.min -->
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

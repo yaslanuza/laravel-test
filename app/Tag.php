@@ -15,7 +15,7 @@ class Tag extends Model
     //RElacion, M:M (1 articulo puede tener muchos tag-ir a modelo a definir, 1 tag puede estar en varios articulos.)
      public function articles() // 1 tag puede estar en varios articulos.
     {
-        return $this->belongsToMany("App\Article"); //relacion M;M
+        return $this->belongsToMany("App\Article")->withTimesTamps(); //relacion M;M
     } //fin articles
 
 

@@ -1,0 +1,77 @@
+/*para IE 10*/
+@-ms-viewport { width: device-width; }
+
+/*Windows Phone 8*/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/*--HEADER-- */
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-inline{
+	color:#fff;
+}
+
+.jumbotron {
+    background:#42ca45;
+    /*]color:#fff;*/
+    padding: 8px 0;
+    color: #c72020;
+}
+
+/*--post -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#logo {
+	/*background-image: url(/img/ineter-logo.png);*/
+	
+	background-image: url(../img/logo-mundo.png);
+	height: 154px;
+    width: 160px;
+    margin-left: 100px;
+   
+}
+/*-- agrega una linea divisora debajo de cada articulo -- */
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999; 
+}
+
+.post .post-title a {
+	color: #333; 
+}
+
+/*--para las imagenes miniatura en bloque del contenedor tumb pull.left -- */
+.post .thumb {
+	margin-right: 10px;
+	width: 40%;
+
+}
+/*--ocupara la img el 100% del contenedor que es 40% -- */
+.post .thumb img {
+	width: 100%
+}
+
+/*Media query para imgenes de contenido se ajusten cuando el dispositivo sea de 768px*/
+@media screen and (max-width: 768px){
+	.post .thumb{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+/*color:#fff;*/
+footer {
+	color: #fff;
+	
+}
